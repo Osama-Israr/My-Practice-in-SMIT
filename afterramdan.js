@@ -223,15 +223,39 @@ function startPlaying() {
 // April 27 - 24    (Problem 3)
 // Find out numbers of data type number in array
 
-let myArray = [2, 3, 4, 'usama', true, 2, false, [], {}, 2, 6, 7, 9, 0, 3];
+// let myArray = [2, 3, 4, 'usama', true, 2, false, [], {}, 2, 6, 7, 9, 0, 3];
+// let counter = 0;
+
+// for(let i = 0; i < myArray.length; i++) {
+//     let myArrayType = myArray[i];
+
+//     if(typeof myArrayType === "number") {
+//         counter++;
+//     }
+// }
+
+// console.log(counter);
+
+
+
+// Word Counter
 let counter = 0;
+let wordCounter = 0;
 
-for(let i = 0; i < myArray.length; i++) {
-    let myArrayType = myArray[i];
+function userInput() {
+    let userMessage = document.getElementById('input').value;
 
-    if(typeof myArrayType === "number") {
-        counter++;
+    document.getElementById('input').value = '';
+
+    for(let i = 0; i < userMessage.length; i++) {
+        if(userMessage[i] == " ") {
+            counter++;
+        }
     }
+    wordCounter = counter + 1;
+    console.log(wordCounter);
+
+    document.getElementById('para').innerText = 'You enter ' + wordCounter + ' words';
+
 }
 
-console.log(counter);

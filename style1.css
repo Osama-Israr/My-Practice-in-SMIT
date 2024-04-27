@@ -1,0 +1,73 @@
+body
+{margin-top: 0;}
+
+.main-container
+{
+    border: 1px solid balck;
+    display: flex;
+}
+
+.aside
+{
+    border: 1px solid black;
+    width: 200px;
+}
+
+.contact
+{
+    border: 1px solid black;
+    margin: 2px;
+    display: flex;
+    background-color: rgb(176, 255, 255);
+}
+
+.message-box 
+{
+    border: 1px solid black;
+    width: 700px;
+    background-color: rgb(186, 142, 228);
+}
+
+.message-box .footer
+{
+    margin-top: 812px;
+}
+
+.footer
+{
+    display: flex;
+    /* border: 1px solid black; */
+    /* position: fixed; */
+}
+
+.input
+{
+    width: 600px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.btn
+{
+    height: 35px;
+    width: 95px;
+    border-radius: 5px;
+}
+
+p.left
+{
+    float: left;
+    background-color: rgb(176, 255, 255);
+}
+
+p.right
+{
+    float: right;
+}
+
+.profile
+{
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color:blueviolet;
+}

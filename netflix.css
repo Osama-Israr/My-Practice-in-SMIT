@@ -1,0 +1,36 @@
+body {
+    top: 0;
+}
+
+.main-con {
+    background-color: #353232;
+    width: 300px;
+    height: 600px;
+}
+
+.main-con h1 {
+    color: rgb(209, 6, 6);
+    text-align: center;
+    /* margin-top: 30px; */
+    padding: 100px 0 50px 0;
+}
+
+.main-con .form {
+    text-align: center;
+}
+
+.main-con .form .input1, .input {
+    width: 90%;
+    height: 30px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 4px;
+}
+
+.main-con .form .btn {
+    width: 100px;
+    height: 30px;
+    display: block;
+    margin-top: 10px;
+    border-radius: 4px;
+}

@@ -238,24 +238,143 @@ function startPlaying() {
 
 
 
+// Assignment (Home)
+
 // Word Counter
-let counter = 0;
-let wordCounter = 0;
+// let counter = 0;
+// let wordCounter = 0;
 
-function userInput() {
-    let userMessage = document.getElementById('input').value;
+// function userInput() {
+//     let userMessage = document.getElementById('input').value;
 
-    document.getElementById('input').value = '';
+//     document.getElementById('input').value = '';
 
-    for(let i = 0; i < userMessage.length; i++) {
-        if(userMessage[i] == " ") {
-            counter++;
-        }
-    }
-    wordCounter = counter + 1;
-    console.log(wordCounter);
+//     for(let i = 0; i < userMessage.length; i++) {
+//         if(userMessage[i] == " ") {
+//             counter++;
+//         }
+//     }
+//     wordCounter = counter + 1;
+//     console.log(wordCounter);
 
-    document.getElementById('para').innerText = 'You enter ' + wordCounter + ' words';
+//     document.getElementById('para').innerText = 'You enter ' + wordCounter + ' words';
 
+// }
+
+
+
+// May 04 , 24 (Problem 4)
+
+// function numMul(number) {
+//     let num = number;
+//     let mul = 1;
+
+//     for(let i = 0; i < num; i++) {
+//         mul *= num;
+//     }
+
+//     console.log(mul);
+// }
+
+// numMul(10);
+
+let currentDate = new Date();
+
+// currentDate.setDate(15);
+
+// function packagePurchase() {
+
+//     let userNum = parseInt(prompt('How many days you want to expire your package?'));
+
+//     alert('Your Package starts from: ' + currentDate);
+
+//     currentDate.setDate(currentDate.getDate() + userNum);
+
+//     alert('Your package expire date: ' + currentDate);
+// }
+
+
+// console.log(currentDate);
+
+// console.log(currentDate);
+
+// console.log(currentDate.setFullYear());
+
+
+let myArray = ['usama', 2, 'asad', true, 9];
+
+
+function addElement(value) {
+    let x = myArray.length;
+    myArray[x] = value;
+    console.log(myArray);
+
+    // console.log(myArray.length);
 }
 
+addElement(7);
+addElement('str');
+
+// addElement(1);
+// console.log(myVar);
+
+// myArray[0] = 'Ali';
+
+// myArray[5] = 'Hamza';
+
+// myArray[8] = 4;
+
+// console.log(myArray);
+
+// let myVariable = myArray[0];
+
+// console.log(myVariable);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// let myArray2 = [];
+
+// for(let i = 0; i < myArray.length; i++) {
+//     console.log('myArray: ' + myArray[i]);
+
+//     myArray2[i] = myArray[i];
+// }
+
+// myArray2[0] = 1;
+
+// console.log('myArray2: ' + myArray2);

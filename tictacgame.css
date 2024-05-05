@@ -1,0 +1,25 @@
+.main_container
+{
+    width: 360px;
+    height: 600px;
+    margin: auto;
+    border: 2px solid black;
+}
+
+.main_container .boxes 
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 310px;
+    height: 500px;
+    margin: auto;
+    border: 2px solid black;
+}
+
+.main_container .boxes .box
+{
+    width: 50px;
+    height: 50px;
+    margin: 2px;
+    border: 2px solid black;
+}

@@ -1,0 +1,1 @@
+document.write("Connected JS!");               // payload , api connect means 

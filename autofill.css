@@ -1,0 +1,29 @@
+body {
+    text-align: center;
+}
+
+.input {
+    border: none;
+    border-bottom: 1px solid black;
+    margin-top: 200px;
+    padding: 8px;
+    /* text-align: center; */
+    position: relative;
+    z-index: 99;
+    background-color: transparent;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.autofill {
+    position: absolute;
+    border: none;
+    /* border: 1px solid black; */
+    /* border-bottom: 1px solid black; */
+    margin-top: 198px;
+    margin-left: -189px;
+    padding: 8px;
+    text-align: center;
+}
